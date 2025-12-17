@@ -83,6 +83,7 @@ Random shutdowns are commonly caused by overheating, a failing power supply, uns
 5.) If this is a laptop, test whether the shutdowns occur only when unplugged. If so, the battery may be failing and may need to be replaced.
 
 6.) Monitor system temperatures using BIOS tools or hardware monitoring software to confirm whether overheating is the cause.
+   - BIOS may show the fan status and temperatures.
 
 <h2>Overheating</h2>
 
