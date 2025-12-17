@@ -117,3 +117,33 @@ Overheating is usually caused by poor ventilation, dust buildup, failing fans, d
 5.) Monitor system temperatures after repairs using BIOS tools or hardware monitoring software to confirm the issue is resolved.
 
 
+
+<h2>🛑 Application Crashing / Not Responding</h2>
+
+**Possible Causes or Root Issues:**
+Application crashes are commonly caused by corrupted application files, incompatible or outdated software versions, insufficient system resources, conflicts with other applications, missing dependencies, or recent system or application updates.
+
+<ins>Fixes:</ins>
+
+1.) Confirm the issue with the user.
+   - Identify which application is crashing and when it occurs.
+   - Note any error messages.
+
+2.) Close and restart the application.
+   - Use Task Manager if the application is unresponsive.
+
+3.) Restart the computer.
+
+4.) Check for application and Windows updates.
+
+5.) Verify system requirements and compatibility.
+
+6.) Repair or reinstall the application if necessary.
+
+7.) Check Reliability Monitor for crash details.
+   - Open Reliability Monitor (View reliability history).
+   - Review recent critical events related to the application.
+   - Note faulting modules, timestamps, and related updates or installs.
+
+8.) Review Event Viewer if additional details are required.
+   - Check Application logs for error codes or related system events.
