@@ -33,30 +33,38 @@ Do not reuse any components that show burn damage.
 5.) Before powering the system back on, ensure all connections are secure and airflow is unobstructed.
 
 
-<h2>🟦Blue Screen of Death (BSOD)🟦</h2>  
+<h2>💻 Blue Screen of Death (BSOD)</h2>
 
-***Symptoms:*** Blue Screen errors with codes such as `MEMORY_MANAGEMENT`, `SYSTEM_SERVICE_EXCEPTION`, or `CRITICAL_PROCESS_DIED`.
+**Possible Causes or Root Issues:**
+Faulty or incompatible device drivers, failing hardware (RAM, storage), corrupted system files, recent software or driver updates, or overheating components.
 
-***Possible Causes or Root Issues:*** Faulty drivers, hardware failure, or corrupted memory.  
+<ins>Fixes:</ins>
 
-<ins>Fixes:</ins> 
+**1.)** Note the error information displayed on the screen. (e.g., MEMORY_MANAGEMENT, IRQL_NOT_LESS_OR_EQUAL).
 
-**1.)** Boot into **Safe Mode**.  
+**2.)** Restart the computer and check for recent changes. Determine if new hardware, drivers, or software were installed prior to the BSOD occurring.
 
-**2.)** Run the **Windows Diagnostic Tool**. `Windows+R` and type `mdsched.exe`->**Restart now** and check for problems, and run the test.
+**3.)** Boot into Safe Mode (if the issue persists).
+   - Safe Mode loads minimal drivers and can help determine whether the issue is driver- or software-related.
 
-**3.)** Update or rollback the drivers in **Device Manager**
+**4.)** Check device drivers.
+   - Update, roll back, or reinstall recently added or problematic drivers using Device Manager.
 
-**4.)** Check for more malware or run the command in **Command Prompt** 
-```bash
-chkdsk /r chkdsk /f
-```
+**5.)** Run system diagnostics and built-in repair tools:
+   - Run Windows Memory Diagnostic to check for RAM issues
+   - sfc /scannow to scan and repair corrupted system files
+   - Run chkdsk to check the hard drive for errors
 
+**6.)** Check for overheating or hardware failures.
+   - Ensure fans are functioning and airflow is unobstructed
+   - Reseat RAM and internal cables if safe to do so
 
-**5.)** Also, try to run the command to repair corrupted Windows system files.
-```bash
-sfc /scannow
-```
+**7.)** Apply Windows updates or uninstall problematic updates.
+
+Install pending updates or remove recent updates if the BSOD began afterward.
+
+**8.)** If the issue continues, as a last resort, use System Restore to revert to a known working state.
+
 
 <h2>Computer Randomly Shuts Down</h2>
 
@@ -64,25 +72,25 @@ sfc /scannow
 Computer suddenly powers off without warning. This may happen during use, under heavy load, or shortly after startup. In some cases, the system may restart automatically.
 
 **Possible Causes or Root Issues:**
-Random shutdowns are commonly caused by overheating, a failing power supply, unstable power delivery, or battery failure on laptops. In rare cases, motherboard or firmware issues may also be involved.
+Commonly caused by overheating, a failing power supply, unstable power delivery, or battery failure on laptops. In rare cases, motherboard or firmware issues may also be involved.
 
 <ins>Fixes:</ins>
 
-1.) Check if the computer feels excessively hot.
+**1.)** Check if the computer feels excessively hot.
    - Listen for loud fans and inspect air vents to see if airflow is blocked by dust or placement.
 
-2.) Verify that all fans are spinning properly (CPU fan, case fans, and power supply fan).
+**2.)** Verify that all fans are spinning properly (CPU fan, case fans, and power supply fan).
    - Clean dust from fans and vents using compressed air if necessary.
 
-3.) Check the power source.
+**3.)** Check the power source.
    - Ensure the power cable is firmly connected, test a different wall outlet or power strip, and avoid overloaded surge protectors.
 
-4.) If this is a desktop, consider the possibility of a failing power supply.
+**4.)** If this is a desktop, consider the possibility of a failing power supply.
    - Unstable or insufficient power can cause sudden shutdowns, especially under load.
 
-5.) If this is a laptop, test whether the shutdowns occur only when unplugged. If so, the battery may be failing and may need to be replaced.
+**5.)** If this is a laptop, test whether the shutdowns occur only when unplugged. If so, the battery may be failing and may need to be replaced.
 
-6.) Monitor system temperatures using BIOS tools or hardware monitoring software to confirm whether overheating is the cause.
+**6.)** Monitor system temperatures using BIOS tools or hardware monitoring software to confirm whether overheating is the cause.
    - BIOS may show the fan status and temperatures.
 
 <h2>Overheating</h2>
