@@ -60,8 +60,7 @@ Faulty or incompatible device drivers, failing hardware (RAM, storage), corrupte
    - Reseat RAM and internal cables if safe to do so
 
 **7.)** Apply Windows updates or uninstall problematic updates.
-
-Install pending updates or remove recent updates if the BSOD began afterward.
+  - Install pending updates or remove recent updates if the BSOD began afterward.
 
 **8.)** If the issue continues, as a last resort, use System Restore to revert to a known working state.
 
