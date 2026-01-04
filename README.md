@@ -1,10 +1,10 @@
-<h1>Power Issues</h1>
+<h1>Troubleshooting Power Issues</h1>
 <p align="center">
 <img width="750" alt="image" src="https://github.com/user-attachments/assets/88ff82b5-c98e-4a5e-94c5-ab62b1a910e5" />
 
 </p>
 
-This repository serves as a quick reference point to resolve common Windows errors and performance issues. Each section will outline key symptoms, possible causes, and troubleshooting steps used by IT professionals to resolve them.
+This repository serves as a collection of knowledge base articles focused on identifying, troubleshooting, and resolving power-related hardware and system issues for Windows-based desktops and laptops.
 
 <h2>🔥 Burning Smell 🔥</h2>
 
