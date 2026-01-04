@@ -116,28 +116,6 @@ Overheating is usually caused by poor ventilation, dust buildup, failing fans, d
 5.) Monitor system temperatures after repairs using BIOS tools or hardware monitoring software to confirm the issue is resolved.
 
 
-<h2>Unusual Noises </h2>
-
-**Symptoms:**
-Computer becomes excessively hot, fans run loudly, and the system may slow down, shut down, or reboot unexpectedly.
-
-**Possible Causes or Root Issues:**
-Overheating is usually caused by poor ventilation, dust buildup, failing fans, dried or improperly applied thermal paste, or blocked airflow inside the case.
-
-<ins>Fixes:</ins>
-
-1.) Check if all fans are working properly (CPU fan, case fans, and power supply fan).
-   - Ensure that dust is not blocking fan blades or air vents.
-
-2.) Use a can of compressed air to blow dust out of the fans, vents, and heat sinks.
-   - You may also use an electronics-safe vacuum. Do NOT use a normal household vacuum, as it can generate static electricity and damage components.
-
-3.) Verify that airflow inside the case is unobstructed. Ensure cables are not blocking fans and that the computer is not placed in an enclosed or poorly ventilated area.
-
-4.) If fans are working correctly and overheating continues, the issue may be related to the CPU heat sink or thermal paste.
-   - Remove the CPU heat sink, carefully clean off the old thermal paste, apply a new, thin layer of thermal paste, and securely reinstall the heat sink.
-
-5.) Monitor system temperatures after repairs using BIOS tools or hardware monitoring software to confirm the issue is resolved.
 
 
 <h2>🛑 Application Crashing / Not Responding</h2>
